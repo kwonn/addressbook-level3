@@ -75,6 +75,14 @@ Use case ends.
 > 3a1. AddressBook shows an error message <br>
   Use case resumes at step 2
 
+#### Use case: Find a person
+
+**MSS**
+
+1. User requests to find person by name
+2. AddressBook shows a list of persons with any of the names searched
+Use case ends
+
 ## Appendix C : Non Functional Requirements
 
 1. Should work on any [mainstream OS](#mainstream-os) as long as it has Java 8 or higher installed.
