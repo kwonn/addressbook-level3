@@ -32,10 +32,10 @@ public class AddCommand extends Command {
      * @throws IllegalValueException if any of the raw values are invalid
      */
     public AddCommand(String name,
-            String phone, boolean isPhonePrivate,
-            String email, boolean isEmailPrivate,
-            String address, boolean isAddressPrivate,
-            Set<String> tags) throws IllegalValueException {
+                      String phone, boolean isPhonePrivate,
+                      String email, boolean isEmailPrivate,
+                      String address, boolean isAddressPrivate,
+                      Set<String> tags) throws IllegalValueException {
         final Set<Tag> tagSet = new HashSet<>();
         for (String tagName : tags) {
             tagSet.add(new Tag(tagName));
